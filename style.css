@@ -4,7 +4,7 @@
 }
 
 .menu-container {
-    background-color: rgb(32, 32, 32);
+    background-color: #424141;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -29,4 +29,109 @@
 
 .nav-item:hover {
     color: #ff5e3a;
+}
+
+.img {
+    width: 300px;
+}
+
+.banner-container {
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 55px;
+    padding-top: 15px;
+}
+
+.banner-description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.sub-title{
+    font-size: 30px;
+}
+
+.main-btn {
+    padding: 10px 20px;
+    background-color: #ff5e3a;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+
+}
+
+.about-section {
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.about-title {
+    text-align: center;
+}
+
+.box {
+    width: 230px;
+    height: 300px;
+    box-shadow: 4px 4px 15px white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon {
+    width: 70px;
+}
+
+.box-btn {
+    background-color: gray;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: white;
+    border-radius: 5px;
+}
+
+.box-title {
+    padding: 10px;
+}
+
+.box-description {
+    padding: 5px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.our-services-section {
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8, 8, 8), rgb(53, 53, 53));
+    height: 50vh;
+}
+.service-title{
+    color: white;
+    font-size: 55px;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
 }
