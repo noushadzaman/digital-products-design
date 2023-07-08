@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-container {
+    background-color: rgb(32, 32, 32);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-photo {
+    width: 120px;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 15px;
+    font-size: 18px;
+    padding-right: 7px;
+    color: white;
+}
+
+.nav-item:hover {
+    color: #ff5e3a;
+}
